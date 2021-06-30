@@ -320,7 +320,7 @@ module.exports = function(schema, option) {
 
         Object.keys(schema.props).forEach((key) => {
             if (
-                ['className', 'style', 'text', 'src', 'lines'].indexOf(key) ===
+                ['className', 'style', 'text', 'src', 'lines', 'dealGradient'].indexOf(key) ===
                 -1
             ) {
                 props += ` ${parsePropsKey(
@@ -405,7 +405,7 @@ module.exports = function(schema, option) {
     // parse schema
     const transform = (schema, flag) => {
         let result = '';
-        if (!flag && schema.componentName === 'Page') {
+        if (flag && schema.componentName === 'Page') {
             isPage = true;
         }
         if (Array.isArray(schema)) {
