@@ -383,7 +383,7 @@ module.exports = function(schema, option) {
                 let className = json.props.className;
 
                 scss += `.${className} {`;
-                scss += parseStyle(json.props.style, { toREM: true });
+                scss += parseStyle(json.props.style, { toREM: false });
                 scss += ';\n';
             }
 
@@ -514,7 +514,7 @@ module.exports = function(schema, option) {
         singleQuote: true,
         trailingComma: 'none',
         bracketSpacing: true,
-        jsxBracketSameLine: true,
+        bracketSameLine: false,
         arrowParens: 'avoid',
         requirePragma: false,
         proseWrap: 'preserve',

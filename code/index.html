@@ -1,23 +1,128 @@
-<div class="box">
-    <div @click="handleClick_1" v-for="(item, index) in loopData" :key="index">
-        <div class="bd">
-            <img class="layer" src="https://img.alicdn.com/tfs/TB1DDx_rQL0gK0jSZFxXXXWHVXa-684-684.png" />
-            <img class="bg" src="https://img.alicdn.com/tfs/TB10TB_rQL0gK0jSZFxXXXWHVXa-684-684.png" />
-            <div class="wrap">
-                <img class="riverdinwei" src="https://img.alicdn.com/tfs/TB1UoB9rQL0gK0jSZFAXXcA9pXa-28-36.png" />
-                <span class="distance">距离500m</span>
+<div class="page">
+    <div class="goods-list-1v3">
+        <div class="container-inner">
+            <div class="wrapper">
+                <div class="origin-price-wrapper">
+                    <span class="rmb">¥</span> <span class="price">28.80</span> <span class="origin-price">¥32.80</span>
+                </div>
+                <div class="wrapper-inner"><span class="buy">火热抢购中</span> <span class="tag">还剩115份</span></div>
             </div>
         </div>
-        <div class="main"><span class="title">{{item.title}}</span></div>
-        <div class="ft">
-            <div class="block">
-                <img class="xianjin" :src="item.user.userImage" />
-                <span class="fashionHome">{{item.user.userName}}</span>
+        <div class="body">
+            <div class="wrapper-1">
+                <div class="wrapper-inner-1">
+                    <span class="time">9:41</span>
+                    <div class="group">
+                        <img
+                            class="icon-hot"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a3e5acf0f10911eb9067a7ea9b9130da.png"
+                        />
+                        <div class="view"><div class="horizontal-line" /></div>
+                        <img
+                            class="dot"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a3c7ebc0f10911ebb795bf708e735263.png"
+                        />
+                    </div>
+                </div>
+                <div class="wrapper-inner-2">
+                    <div class="icon-left-wrapper">
+                        <img
+                            class="icon-left"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a3abff50f10911eba0402f9550745fcb.png"
+                        />
+                    </div>
+                    <img
+                        class="badge"
+                        src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a25c74e0f10911eba0402f9550745fcb.png"
+                    />
+                </div>
             </div>
-            <div class="group">
-                <img class="favorite" src="https://img.alicdn.com/tfs/TB1pxuarHj1gK0jSZFuXXcrHpXa-46-44.png" />
-                <span class="num">{{item.readCount}}</span>
+            <div class="wrapper-2">
+                <div class="horizontal-line-1" />
+                <img
+                    class="icon-play"
+                    src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a23760b0f10911ebb70d8bcb39f43138.png"
+                />
+                <div class="tag-wrapper"><span class="tag-1">2/6</span></div>
             </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper-3">
+                <img
+                    class="icon-share"
+                    src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a2a5b2e0f10911eb9067a7ea9b9130da.png"
+                />
+                <span class="info">新鲜进口直供，甜到你心</span>
+                <div class="wrapper-inner-3">
+                    <div class="group-i0">
+                        <img
+                            class="icon-setup"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a32c4800f10911ebae8da7140ed364d7.png"
+                        />
+                        <span class="label">售后无忧</span>
+                    </div>
+                    <div class="group-i1">
+                        <img
+                            class="icon-time"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a36d2190f10911eba88e319e7697f4dc.png"
+                        />
+                        <span class="word">次日自提</span>
+                    </div>
+                    <div class="group-i2">
+                        <img
+                            class="icon-guard"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a34acc80f10911ebb7f29fa9d1aedb5e.png"
+                        />
+                        <span class="tag-2">好吃不贵</span>
+                    </div>
+                </div>
+            </div>
+            <img
+                class="text-background"
+                src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a2e6da90f10911eba2125bbb5894a3f5.png"
+            />
+            <div class="tag-wrapper-1"><span class="tag-3">热门</span></div>
+            <span class="desc"> 锅圈食汇肥牛卷牛肉卷火锅食材文案 200g/份</span>
+        </div>
+    </div>
+    <div class="shop">
+        <span class="label-1">已选</span> <span class="word-1">200g/份</span>
+        <img
+            class="text-background-1"
+            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a3018e80f10911eb9c486f10336bcc6e.png"
+        />
+        <div class="body-1">
+            <img
+                class="icon-right"
+                src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a2c71d90f10911eb9fe7dd28a805e12c.png"
+            />
+        </div>
+        <div class="footer-1">
+            <span class="tag-4">自提点</span> <span class="shop-title">申长路店，次日16:00自提</span>
+        </div>
+    </div>
+    <div class="list">
+        <div class="header"><span class="meta">您的邻居还看了</span></div>
+        <div class="body-2">
+            <img
+                class="bg"
+                src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a41f5a90f10911eba2125bbb5894a3f5.png"
+            />
+            <div class="wrapper-4">
+                <div class="wrapper-inner-4">
+                    <div class="icon-cart-wrapper">
+                        <img
+                            class="icon-cart"
+                            src="https://ai-sample.oss-cn-hangzhou.aliyuncs.com/test/a4040a60f10911eba88e319e7697f4dc.png"
+                        />
+                        <span class="num">4</span>
+                    </div>
+                    <span class="buy-1">购物车</span>
+                </div>
+                <div class="wrapper-inner-i0"><span class="buy-2">加入购物车</span></div>
+                <div class="wrapper-inner-i1"><span class="buy-3">立即购买</span></div>
+            </div>
+            <div class="wrapper-5"><div class="horizontal-line-2" /></div>
         </div>
     </div>
 </div>
